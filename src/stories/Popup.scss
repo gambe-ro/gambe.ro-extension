@@ -1,0 +1,18 @@
+$primary-color: darkblue;
+$background-color: #BADA55;
+
+// Chrome applies an 8px margin by default (gross).
+body {
+    margin: 0px;
+}
+
+.storylist {
+    align-items: center;
+    width: 550px;
+}
+
+.story{
+    margin-bottom: 5%;
+    font-size: 20px;
+    border-bottom: 2px black solid;
+}

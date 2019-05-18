@@ -1,14 +1,14 @@
 {
-  "name": "chrome-extension-react-typescript-boilerplate",
-  "version": "1.0.0",
-  "description": "A boilerplate project to quickly build a Chrome extension using TypeScript and React (built using webpack).",
+  "name": "gambe.ro-notifier",
+  "version": "0.0.1",
+  "description": "Gambe.ro",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack --config webpack.dev.js",
     "watch": "webpack -w --config webpack.dev.js",
     "lint": "tslint 'src/**/*.{ts, tsx}'"
   },
-  "author": "Joe Martella",
+  "author": "Simone Robutti",
   "license": "MIT",
   "devDependencies": {
     "@types/chrome": "0.0.60",
